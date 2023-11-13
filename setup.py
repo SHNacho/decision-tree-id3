@@ -12,11 +12,11 @@ with open('requirements.txt') as f:
 #     print('numpy is required during installation')
 #     sys.exit(1)
 
-try:
-    import scipy
-except ImportError:
-    print('scipy is required during installation')
-    sys.exit(1)
+# try:
+#     import scipy
+# except ImportError:
+#     print('scipy is required during installation')
+#     sys.exit(1)
 
 setup(name='decision-tree-id3',
       version='0.1.2',
